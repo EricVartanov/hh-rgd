@@ -29,7 +29,10 @@
     .idc-logo {
         width: 36vw;
     }
-
+    /* ******about**** */
+    .idc-about .idc-text + .idc-text{
+        padding-right: 10px;
+    }
     /* ******info**** */
     .idc-info .idc-container {
         padding-bottom: 50px;
