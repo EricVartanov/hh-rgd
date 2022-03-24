@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ******head**** */
+
+    .idc-head .idc-container {
+        padding-top: 22px;
+        height: 405px;
+    }
+    .idc-head .idc-logo {
+        width: 190px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-top: 15px;
+        height: 66.3vw;
+    }
+    .idc-logo {
+        width: 36vw;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-bottom: 50px;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
